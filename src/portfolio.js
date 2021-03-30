@@ -9,7 +9,7 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
+  username: "Francisco",
   title: "Olá, Sou o Francisco",
   subTitle: emoji(
     "Sou estudante do curso de Engenharia da Computação na Universidade do Estado de Minas Gerais (UEMG) e estudante do bootcamp GoStack na rocketseat. Sou desenvolvedor fullstack com as tecnologias React, Node e React Native.❤🚀"
@@ -40,13 +40,13 @@ const skillsSection = {
   title: "Quem sou eu",
   subTitle: "DESENVOLVEDOR FULL STACK QUE ADORA EXPLORAR NOVAS TECNOLOGIAS.",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    ),
+    // emoji(
+    //   "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+    // ),
+    // emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    // emoji(
+    //   "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+    // ),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -77,10 +77,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node",
     },
-    // {
-    //   skillName: "swift",
-    //   fontAwesomeClassname: "fab fa-swift",
-    // },
+    {
+      skillName: "swift",
+      fontAwesomeClassname: "fab fa-swift",
+    },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm",
@@ -119,9 +119,8 @@ const educationInfo = {
       logo: require("./assets/images/cefetLogo.png"),
       subHeader: "Técnico em Eletromecânica",
       duration: "Janeiro 2014 - Dezembro 2016",
-      desc:
-        "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"],
+      desc: "Técnico",
+      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"],
     },
     {
       schoolName: "UEMG",
@@ -148,11 +147,15 @@ const techStack = {
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%",
+      progressPercentage: "60%",
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%",
+      Stack: "Mobile",
+      progressPercentage: "75%",
+    },
+    {
+      Stack: "Programação",
+      progressPercentage: "70%",
     },
   ],
   displayCodersrank: false, // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -166,28 +169,32 @@ const workExperiences = {
     {
       role: "Diretor presidente",
       company: "Boost Tecnologia",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
+      companylogo: require("./assets/images/boost.png"),
+      date: "Jun 2017 – Mar 2019",
       desc:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
     {
-      role: "Istrutor de programação e robótica",
+      role: "Instrutor",
       company: "Ciber Code",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
+      companylogo: require("./assets/images/code.png"),
+      date: "Jan 2019 – Dez 2019",
       desc:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      ],
     },
     {
-      role: "Desenvolvedor mobile",
+      role: "Dev mobile",
       company: "Find Tecnologia",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
+      companylogo: require("./assets/images/find.png"),
+      date: "Nov 2020 – Mar 2021",
+      desc:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    },
+    {
+      role: "Dev IOS",
+      company: "Stone",
+      companylogo: require("./assets/images/stone.png"),
+      date: "Abr 2021 – Atual",
       desc:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
@@ -342,10 +349,10 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Entre em contato comigo"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
+    "",
+  number: "",
   emailAddress: "saadpasta70@gmail.com",
 };
 
