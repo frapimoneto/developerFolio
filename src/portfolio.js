@@ -12,7 +12,7 @@ const greeting = {
   username: "Francisco",
   title: "Olá, Sou o Francisco",
   subTitle: emoji(
-    "Sou estudante do curso de Engenharia da Computação na Universidade do Estado de Minas Gerais (UEMG) e estudante do bootcamp GoStack na rocketseat. Sou desenvolvedor fullstack com as tecnologias React, Node e React Native.❤🚀"
+    "Sou engenheiro da computação pela Universidade do Estado de Minas Gerais. Também sou desenvolvedor fullstack com as tecnologias React, Node e React Native.❤🚀"
     // 'A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.'
   ),
   // resumeLink:
