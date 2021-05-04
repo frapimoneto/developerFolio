@@ -184,7 +184,7 @@ const workExperiences = {
     },
     {
       role: "Dev mobile",
-      company: "Find Tecnologia",
+      company: "Find Soluções",
       companylogo: require("./assets/images/find.png"),
       date: "Nov 2020 – Mar 2021",
       desc:
